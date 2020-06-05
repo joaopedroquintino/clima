@@ -1,3 +1,4 @@
+import 'package:clima/features/clima/presentation/telas/loading_screen.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -12,7 +13,7 @@ class ClimaApp extends StatelessWidget {
       theme: ThemeData.dark().copyWith(
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
-      home: Scaffold(),
+      home: LoadingScreen(),
     );
   }
 }
